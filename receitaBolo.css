@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #1b1b1b;
+}
+
+h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+li,
+p {
+  font-size: 1rem;
+  color: #39393a;
+  margin-bottom: 0.75rem;
+}
+
+.imagem {
+  position: relative;
+}
+
+figcaption {
+  font-size: 0.75rem;
+  color: #8f8f8f;
+  position: absolute;
+  right: 0;
+}
+
+.imagem img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.receita {
+  background-color: #ffffff;
+  margin: 2rem 6rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+.ingredientes,
+.preparo,
+.imagem {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #8f8f8f;
+}
